@@ -1,0 +1,22 @@
+
+vs 2015 c++  编译目录：
+INCLUDES
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include
+
+path
+
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin;D:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE;
+
+LIB
+D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib
+=====================================================================================
+配置 C++ 编译器
+
+
+3、安装MinGW
+
+为了让CDT能够采用MinGW进行编译，需要在 Eclipse 中进行设定
+Window->Preferences->C/C++->Make->NewMake Project->New Builder
+->Binary Parser 取消 Elf Parser 改选 PE WindowsParser
+
+语言包：http://download.eclipse.org/technology/babel/update-site/R0.13.1/mars
